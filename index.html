@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Volty | Not just another video player</title>
+    <link rel="icon" href="http://vlasisblb.com/images/favicon.ico" type="image/x-icon" />
+    <link href='https://fonts.googleapis.com/css?family=Lato:300%7CBad+Script%7CMontserrat:700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/master.css">
+
+    <!-- Open Graph tags -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="vlasisblb.com" />
+    <meta property="og:url" content="http://vlasisblb.com/projects/volty/" />
+    <meta property="og:title" content="Volty video player | by Vlasis Bouloubasis" />
+    <meta property="og:description" content="Volty is a responsive video player created by Vlasis Bouloubasis. Currently, it is fully supported on Google Chrome and Mozilla Firefox." />
+    <meta property="og:image" content="http://vlasisblb.com/projects/volty/assets/poster.png" />
+  </head>
+  <body>
+      <div id="wrapper">
+          <header>
+              <h1>Volty</h1>
+              <h2>A video player created by Vlasis Bouloubasis</h2>
+          </header>
+          <section>
+            <span class="press">Press the play button !</span>
+              <div id="player-container">
+                  <video src="assets/sample.mp4" poster="assets/poster.png" preload="auto" id="sample-video">
+                    Oooops. Your browser does not support video element!
+                  </video>
+                  <div id="apply-layer">
+                    <div id="video-controls-bar">
+                      <div id="video-seekslider">
+                        <input id="seek" type="range" min="0" max="100" value="0" step="1">
+                      </div>
+                      <div id="controls">
+                        <button id="play-and-pause"></button>
+                        <span id="curtime">00:00</span><span> / </span><span id="durtime">00:00</span>
+                        <button id="fullscreen"></button>
+                        <input id="volume" type="range" name="name" min="0" max="100" value="50" step="1">
+                        <button id="mute"></button>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              <article>
+                <h3>About "Volty"</h3>
+                <p>
+                  Hi, i'm Vlasis, a web developer &amp; programmer. Volty is one of the projects i'm working on these days.
+                  It's a video player i developed, using the HTML5 video element, CSS3 and Javascript. Currently, it is fully
+                  supported on Google Chrome and Mozilla Firefox.
+                </p>
+                <p>
+                  <strong>Version:</strong> 1.0
+                  <br>
+                  <strong>Date released:</strong> January 05, 2016
+                  <br>
+                  <strong>Languages used:</strong> HTML5, CSS3 &amp; Javascript.
+                  <br>
+                  <strong>Fully tested &amp; supported on:</strong> Google Chrome, Mozilla Firefox.
+                  <br>
+                  <strong>Bugs / known issues:</strong> Not working properly on Opera browser. Probably i'll fix this bug in one of the upcoming versions, in the future.
+                </p>
+                <a href="../" class="back">&#60;-- Return to my Projects' page</a>
+              </article>
+          </section>
+          <footer>
+              <p>
+                  Vlasis Bouloubasis 2015 &copy;
+              </p>
+          </footer>
+      </div>
+      <script src="assets/player.js"></script>
+      <script type="text/javascript">
+
+      </script>
+  </body>
+</html>
