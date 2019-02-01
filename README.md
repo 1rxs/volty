@@ -1,2 +1,2 @@
 # volty
-A simple responsive video player written in HTML5, CSS3 &amp; JavaScript.
+Ένα video player ανεπτυγμένο με HTML, CSS και JavaScript.
